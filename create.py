@@ -6,7 +6,7 @@ from schema import *
 # d.create_all()
 
 # Task - 2 (only once)
-c1 = Colleges(college_id=1,college_name='Oxford',address='UK',director_name='Oxana')
+c1 = Colleges(college_id=1,college_name='New data',address='UK',director_name='Oxana')
 d.session.add(c1)
 c2 = Colleges(college_id=2,college_name='Stanford',address='US',director_name='Paresh')
 d.session.add(c2)
